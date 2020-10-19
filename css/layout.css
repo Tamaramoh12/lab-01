@@ -1,3 +1,109 @@
-/* should contain general positioning on the page
+/* layout should contain general positioning on the page
 Apply to elements such as header, footer, nav, aside
 Classes and IDs can be included here */
+#container{
+    margin: 5%;
+}
+#a{
+    line-height: 75px;
+    height: 75px;
+    background-color:#cee3fc;
+}
+
+#b {
+    line-height: 150px;
+    height: 150px;
+    background-color: #b2cceb;
+}
+
+#c , #d {
+    line-height: 125px;
+    height: 125px;
+}
+#c{
+    background-color:   #90afd4;
+}
+#d{
+    background-color:   #7397c4;
+}
+.column{
+    float: left;
+    width: 50%;
+    height: 250px;
+    line-height: 250px;
+}
+#e{
+    background-color:   #5f85b4;
+}
+#f{
+    background-color:   #5076a5;
+}
+#g{
+    background-color:   #34547c;
+}
+#h{
+    background-color:   #24446b;
+}
+#i{
+    clear: both;
+    line-height: 80px;
+    height: 80px;
+    background-color:   #143153;
+}
+
+@media screen and (min-width: 768px){
+    
+    #a{
+        line-height: 100px;
+        height: 100px;
+        background-color:#fbe2f0;
+    }
+    
+    #b {
+        width: 20%;
+        float: left;
+        line-height: 600px;
+        height: 600px;
+        background-color: #f8d1e7;
+    }
+    
+    #c , #d {
+        float: left;
+        width: 40%;
+        line-height: 200px;
+        height: 200px;
+    }
+    #c{
+        background-color:   #f8badd;
+    }
+    #d{
+        background-color:   #f79dd0;
+    }
+    .column{
+        float: left;
+        width: 20%;
+        height: 250px;
+        line-height: 250px;
+    }
+    #e{
+        background-color:   #f78ac7;
+    }
+    #f{
+        background-color:   #fd7bc5;
+    }
+    #g{
+        background-color:   #f85fb6;
+    }
+    #h{
+        background-color:   #fa3ca8;
+    }
+    #i{
+        width: 80%;
+        line-height: 150px;
+        height: 150px;
+        background-color: #fd28a1;
+        float: right;
+        margin-top: -12.4%;
+    }
+}
+
