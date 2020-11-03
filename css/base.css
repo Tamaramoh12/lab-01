@@ -1,28 +1,36 @@
-/*base.css
-should contain any general styling on top of what is provided by a reset.css or normalize.css file 
+/* should contain any general styling on top of what is provided by a reset.css or normalize.css file (these files will be discussed in further detail in lecture)
 Apply to elements such as body and main
 Examples include styling of overall font and background color */
-body{
-    margin: 0;
-    padding: 0px; 
-}
-div{
+
+*{
+    box-sizing: border-box;
     background-color: #D8D8D8;
     text-align: center;
 }
 
-
-
-/* Aghyad */
-/* body{
-    margin: 0;        
-    padding: 0px;
-   
+@media (max-width: 960px){  /*Desktop*/
+    body{
+        margin: 0;
+        padding: 0; 
+        width: 100%;
+    }
 }
-div{
-   background-color: #D8D8D8;
-   color: white;
-    text-align: center;
-    box-shadow: 1px 1px 1px 1px gray, 1px 1px 1px 1px gray;
 
-} */
+@media (max-width: 960px){  /*Tablet*/
+    body{
+        margin-left: auto;
+        margin-right: auto;
+        width: 620px;
+    }
+}
+
+@media(min-width: 960px){
+
+
+    body{
+        margin-left: auto;
+        margin-right: auto;
+        width: 960px;
+    }
+}
+
